@@ -12,6 +12,7 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
     <meta name="generator" content="Jekyll v3.8.5" />
     <title>Blog Template · Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/" />
 
@@ -365,17 +366,62 @@
     <a href="#" class="float-right mb-3 mr-3">Back to top</a>
     <script>
         /* JS Exercises should go here */
-        // Write a JavaScript functionality to add a new link into the navbar
-        // Write a JavaScript functionality to change the color of the main heading title
-        // Write a JavaScript functionality to change the background of the jumbotron
 
-        // Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere” section in the aside element. It should happen when the page loads, automatically
+        // 13. Write a JavaScript functionality to add a new link into the navbar
 
-        // Write a JavaScript functionality to remove the first 50 characters in the first paragraph for every blog post
-        // Write a JavaScript functionality to add a new Blog Post (div with title and text)
-        // Write a JavaScript functionality to remove the last Blog Post when the user clicks on the "Older" button
+        const addNewLink = function () {
+            let navBarNode = document.getElementsByTagName('nav')[0];
+            let newLinkNode = document.createElement('span');
+            newLinkNode.innerText = "New Link!";
+            navBarNode.appendChild(newLinkNode)
+        }
 
-        // Write a JavaScript functionality that will create an alert with the name of the author every time the user hovers the mouse on an author's name
+        //addNewLink()
+
+        // 14. Write a JavaScript functionality to change the color of the main heading title
+
+        const changeTitleColor = function() {
+            let newColorNode = document.getElementsByTagName('h1')[0];
+            newColorNode.style.color = 'red';
+        }
+
+        //changeTitleColor()
+
+        // 15. Write a JavaScript functionality to change the background of the jumbotron
+
+        const changeJTbg = function () {
+            let newJTcolorNode = document.getElementsByClassName('jumbotron')[0];
+            newJTcolorNode.style.backgroundColor = 'red';
+        }
+
+        //changeJTbg()
+
+        // 16. Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere” section in the aside element. It should happen when the page loads, automatically
+
+        const removeTwitter = function () {
+            let twitterNode = document.querySelector()//?;
+            link.remove();
+        }
+
+        //window.onload(removeTwitter())
+
+        // 17. Write a JavaScript functionality to remove the first 50 characters in the first paragraph for every blog post
+
+        const removeChar = function () {
+
+        }
+
+        // 18. Write a JavaScript functionality to add a new Blog Post (div with title and text)
+
+        const newBlogPost = function() {
+            
+        }
+
+
+
+        // 19. Write a JavaScript functionality to remove the last Blog Post when the user clicks on the "Older" button
+
+        // 20. Write a JavaScript functionality that will create an alert with the name of the author every time the user hovers the mouse on an author's name
         // EXTRA Write a JavaScript functionality that will remove the corresponding parent card from the DOM, upon clicking on their “Continue reading” link
     </script>
 </body>

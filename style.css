@@ -1,0 +1,51 @@
+h1 {
+    background-color: aqua;
+}
+
+.nav span {
+    background-color: aqua;
+}
+
+.jumbotron .col-md-6 .mb-0 .font-weight-bold {
+    background-color: aqua;
+}
+
+/*tbd:*/
+.d-flex .text-primary {
+    background-color: aqua;
+}
+
+.blog-post hr {
+    border-color: red;
+}
+
+.nav span:nth-of-type(2n) {
+    background-color: orange;
+}
+
+/*tbd:*/
+.p-4 .font-italic .mb-0 li {
+    color: red
+}
+
+.blog-post:nth-of-type(2) p:first-of-type>a {
+    background-color: aqua;
+}
+
+/*tbd:*/
+.blog-post .blog-post-meta ul li {
+    background-color: aqua;
+}
+
+/*10. Write a selector to target the “back to top” link you can find at the bottom-right corner*/
+.mr-3:target {
+    background-color: aqua;
+}
+
+/*tbd:*/
+.blog-pagination .btn-outline-secondary {
+    background-color: aqua;
+}
+
+/*12.Write a selector to target the footer’s second link*/
+
